@@ -29,3 +29,7 @@
     From the below image, we have to understand that we need to approve the terrafom apply command as per the pipeline (input part)configuration.
     Also, if yuo notice, we are not mentioning the input part in other pipelines
 ![alt text](images/vpc-approval.png)
+
+
+    As we are not using the any s3 bucket for storing our state file, we are not using the below peace of code in our provider.tf file when compared with the Siva repo and due to this removal only, we are using the terraform init in the piepline but Siva is using terraform init -reconfigure as he is storing the statefile in an s3 bucket
+![alt text](images/statefile-removal.png)
