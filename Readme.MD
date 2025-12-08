@@ -20,3 +20,5 @@
 
     ACM, EKS and Bastion are not dependent on each other, so these pipelines can be executed parallelly
 ![alt text](images/upstream&downstream.png)
+
+![alt text](images/infra.png)
