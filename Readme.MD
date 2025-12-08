@@ -16,4 +16,7 @@
 
 ## Understanding Upstream and Downstream
 
+    From the below image, we can understand that Security Group is dependent on VPC and Bastion depends on Security Group. And the ALB is dependent on ACM
+
+    ACM, EKS and Bastion are not dependent on each other, so these pipelines can be executed parallelly
 ![alt text](images/upstream&downstream.png)
