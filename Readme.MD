@@ -13,3 +13,7 @@
     Install Terraform from the new repository.
 
         $ sudo yum -y install terraform
+
+## Understanding Upstream and Downstream
+
+![alt text](images/upstream&downstream.png)
