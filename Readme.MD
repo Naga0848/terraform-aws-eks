@@ -24,3 +24,8 @@
 
     We will be creating the below infra using this repo. In future, we have to remember that we are only creating the below mentioned infra from this repo
 ![alt text](images/infra.png)
+
+
+    From the below image, we have to understand that we need to approve the terrafom apply command as per the pipeline (input part)configuration.
+    Also, if yuo notice, we are not mentioning the input part in other pipelines
+![alt text](images/vpc-approval.png)
